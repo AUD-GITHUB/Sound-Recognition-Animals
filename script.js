@@ -13,10 +13,8 @@ function gotResults(error, results) {
     } else {
         console.log(results);
         setInterval(displayResults, 2000);
-    }
-}
-
-function displayResults(gotResults.results) {
+        
+function displayResults() {
 
     rgb_r = Math.floor(Math.random() * 255) + 1;
     rgb_g = Math.floor(Math.random() * 255) + 1;
@@ -67,4 +65,7 @@ function displayResults(gotResults.results) {
         img.src = 'hearing.gif';
     }
 
+}
+
+    }
 }
