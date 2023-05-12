@@ -16,7 +16,7 @@ function gotResults(error, results) {
     }
 }
 
-function displayResults() {
+function displayResults(gotResults.results) {
 
     rgb_r = Math.floor(Math.random() * 255) + 1;
     rgb_g = Math.floor(Math.random() * 255) + 1;
