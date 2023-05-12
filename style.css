@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(goldenrod 0%, lemonchiffon 100%);
+    font-family: 'Bruno Ace', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#note {
+    color: crimson;
+    font-weight: bold;
+}
+
+#div-credits {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#sound {
+    font-size: 20px;
+}
+
+#accuracy {
+    font-size: 20px;
+}
+
+#sound:hover {
+    font-size: 30px;
+}
+
+span p:hover {
+    font-size: 30px;
+}
+
+span p {
+    font-size: 20px;
+}
+
+#img {
+    width: 250px;
+    height: 375px;
+}
+
+#start {
+    width: 10%;
+    font-size: large;
+}
